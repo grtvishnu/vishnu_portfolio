@@ -1,4 +1,6 @@
-# Gatsby Simplefolio ⚡️ [![GitHub](https://img.shields.io/github/license/cobidev/gatsby-simplefolio?color=blue)](https://github.com/cobidev/gatsby-simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobidev/gatsby-simplefolio) ![GitHub forks](https://img.shields.io/github/forks/cobidev/gatsby-simplefolio)
+# Simplefolio ⚡️ [![GitHub](https://img.shields.io/github/license/cobidev/gatsby-simplefolio?color=blue)](https://github.com/cobidev/gatsby-simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobidev/gatsby-simplefolio) ![GitHub forks](https://img.shields.io/github/forks/cobidev/gatsby-simplefolio)
+
+> > > > > > > 4f21eadfb92d8b16b32b8cc2eba0117be6d4e87e
 
 ## A clean, beautiful and responsive portfolio template for Developers
 
@@ -65,6 +67,7 @@ $ git remote remove origin
 Then you can install the dependencies either using NPM or Yarn:
 
 Using NPM:
+
 ```bash
 # Install dependencies
 $ npm install
@@ -72,7 +75,9 @@ $ npm install
 # Start development server
 $ gatsby develop
 ```
+
 Using Yarn:
+
 ```bash
 # Install dependencies
 $ yarn
