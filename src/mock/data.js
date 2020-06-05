@@ -54,7 +54,7 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'mov.jpg',
-    title: '',
+    title: 'Movie Recommendation Using RecommenderLab and Shiny R',
     info: '',
     info2: '',
     url: '',
