@@ -27,12 +27,12 @@ export const aboutData = {
 // PROJECTS DATA
 export const projectsData = [{
     id: uuidv1(),
-    img: 'project.jpg',
+    img: 'air.jpg',
     title: 'Air Pollution Prediction and Forecasting',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    info: 'Predicting Air Quality can help governments warn people at high risk. In this work feature importance of air pollution, Implementing Random forest, XGBoost, CatBoost and Deep learning machine learning (ML) approaches. We use 8 features, including meteorological data, ground-measured PM 2.5 and gaseous pollutants.',
+    info2: 'Forecasting Air quality using deep learning technique LSTM and Prophet package by Facebook we can extract the trend yearly seasonality, and weekly seasonality of the time series',
+    url: 'https://github.com/grtvishnu/Air-Pollution-Prediction-and-Forecasting',
+    repo: 'https://github.com/grtvishnu/Air-Pollution-Prediction-and-Forecasting', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
