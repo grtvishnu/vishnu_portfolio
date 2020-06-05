@@ -36,12 +36,12 @@ export const projectsData = [{
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'cus.jpg',
+    title: 'Custom Dataset Statistical Analyzing and Classification',
+    info: 'With any dataset it can analyze the data using multiple methods finding its data distibution using plots find diffrent type of correlations and covariance. it can find all summary of the dataset and it is used for supervised machine learning.',
+    info2: 'It can use for supervised classification methods like Logistic regression, Random forest, XGboost, Neural network.',
+    url: 'https://github.com/grtvishnu/Custom-Dataset-Analysis-Classification',
+    repo: 'https://github.com/grtvishnu/Custom-Dataset-Analysis-Classification', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
