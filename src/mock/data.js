@@ -55,10 +55,12 @@ export const projectsData = [
     id: uuidv1(),
     img: 'mov.jpg',
     title: 'Movie Recommendation Using RecommenderLab and Shiny R',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    info:
+      'The main goal of this machine learning project is to build a recommendation engine that recommends movies to users. This R project is designed to understand the functioning of how a recommendation system works.',
+    info2:
+      'System provides suggestions to the users through a filtering process that is based on user preferences and browsing history. ',
+    url: 'https://github.com/grtvishnu/Movie_recommendation',
+    repo: 'https://github.com/grtvishnu/Movie_recommendation', // if no repo, the button will not show up
   },
 ];
 
@@ -75,27 +77,27 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/vishnumon021',
     },
     {
       id: uuidv1(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/grt_vishnu',
     },
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/vishnuvu/',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/grtvishnu',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
