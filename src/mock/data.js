@@ -27,6 +27,15 @@ export const aboutData = {
 // PROJECTS DATA
 export const projectsData = [{
     id: uuidv1(),
+    img: 'cus.jpg',
+    title: 'Custom Dataset Statistical Analyzing and Classification',
+    info: 'With any dataset it can analyze the data using multiple methods finding its data distibution using plots find diffrent type of correlations and covariance. it can find all summary of the dataset and it is used for supervised machine learning.',
+    info2: 'It can use for supervised classification methods like Logistic regression, Random forest, XGboost, Neural network with default parameters.',
+    url: 'https://github.com/grtvishnu/Custom-Dataset-Analysis-Classification',
+    repo: 'https://github.com/grtvishnu/Custom-Dataset-Analysis-Classification', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'air.jpg',
     title: 'Air Pollution Prediction and Forecasting',
     info: 'Predicting Air Quality can help governments warn people at high risk. In this work feature importance of air pollution, Implementing Random forest, XGBoost, CatBoost and Deep learning machine learning (ML) approaches. We use 8 features, including meteorological data, ground-measured PM 2.5 and gaseous pollutants.',
@@ -36,16 +45,7 @@ export const projectsData = [{
   },
   {
     id: uuidv1(),
-    img: 'cus.jpg',
-    title: 'Custom Dataset Statistical Analyzing and Classification',
-    info: 'With any dataset it can analyze the data using multiple methods finding its data distibution using plots find diffrent type of correlations and covariance. it can find all summary of the dataset and it is used for supervised machine learning.',
-    info2: 'It can use for supervised classification methods like Logistic regression, Random forest, XGboost, Neural network.',
-    url: 'https://github.com/grtvishnu/Custom-Dataset-Analysis-Classification',
-    repo: 'https://github.com/grtvishnu/Custom-Dataset-Analysis-Classification', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'project.jpg',
+    img: 'mov.jpg',
     title: '',
     info: '',
     info2: '',
