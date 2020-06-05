@@ -9,27 +9,26 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hi, My name is ',
+  name: 'Vishnu Unnikrishnan',
+  subtitle: 'I am a Data Scientist',
+  cta: 'Know more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'I am a Computer Science Engineering graduate, with interests in data analytics, data science, and database management. I love the challenge of coding and I am passionate about making data-driven decisions! ',
+  paragraphTwo: 'I found that my favorite projects were ones where I got to deep dive into data analysis and create visualizations. I was interested in pursuing a technical position where I could develop models,learn new technologies/coding languages, and/or utilize statistics. ',
+  paragraphThree: 'I chose to enroll in an intensive Data Science course through Thinkful in order to solidify my technical skills and practice implementing machine learning models through project work.',
+  resume: 'https://drive.google.com/file/d/1JslebhkuYaWjbeO707mj6egsNVC9rYD1/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
-export const projectsData = [
-  {
+export const projectsData = [{
     id: uuidv1(),
     img: 'project.jpg',
-    title: '',
+    title: 'Air Pollution Prediction and Forecasting',
     info: '',
     info2: '',
     url: '',
@@ -64,8 +63,7 @@ export const contactData = {
 
 // FOOTER DATA
 export const footerData = {
-  networks: [
-    {
+  networks: [{
       id: uuidv1(),
       name: 'twitter',
       url: '',
